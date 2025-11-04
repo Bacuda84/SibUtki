@@ -8,7 +8,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Bacuda84/SibUtki?label=Last%20Commit)
 [![Language](https://img.shields.io/badge/Language-Swift-green.svg)]()
 [![Founded](https://img.shields.io/badge/Founded-November_2025-ff69b4.svg)]()
-https://github-production-user-asset-6210df.s3.amazonaws.com/128780792/509481541-bab455cd-d443-4aa0-bf8c-46cf6556a869.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251104%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251104T112240Z&X-Amz-Expires=300&X-Amz-Signature=18a893f3d0fa6601639280734cf4a266bfe79f09aac263cecbc5cfd61dcfbabb&X-Amz-SignedHeaders=host
+
+[![Смотреть видео](preview.png)](https://github-production-user-asset-6210df.s3.amazonaws.com/128780792/509481541-bab455cd-d443-4aa0-bf8c-46cf6556a869.mp4)
 
 ## Описание
 
