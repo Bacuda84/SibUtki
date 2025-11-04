@@ -19,6 +19,8 @@ class MainTableViewController: UITableViewController, MainViewProtocol {
     var presenter: MainPresenterProtocol!
     var delegate: SwipeDayDelegate?
     
+    var selectedIndexPath: IndexPath?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
@@ -79,6 +81,7 @@ class MainTableViewController: UITableViewController, MainViewProtocol {
                 cell.collectionView.ourDelegate = self
                 cell.selectedBackgroundView = selectedBackgroudView
                 self.delegate = cell.collectionView
+                cell.collectionView.selectedIndexPath = self.selectedIndexPath
 
                 return cell
             default:
@@ -152,8 +155,9 @@ class MainTableViewController: UITableViewController, MainViewProtocol {
 //MARK: - делегаты ячеек/модального окна -
 //обработка выбора дня недели
 extension MainTableViewController: DaysCollectionViewProtocol {
-    func selected(_ date: Date) {
+    func selected(_ date: Date, indexPath: IndexPath?) {
         presenter.updateSchedule([date])
+        self.selectedIndexPath = indexPath
     }
 }
 //обработка нажания на выбор Группы

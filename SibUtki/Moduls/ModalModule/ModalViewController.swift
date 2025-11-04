@@ -14,7 +14,7 @@ class ModalSheetViewController: UIViewController, ModalViewProtocol {
     
     //простая логика, в рефакторинге попробую сделать более изящное решение
     var selectedInstituteIndex = 0
-    var selectedCourse = 0
+    var selectedCourse = -1
     
     //MARK: - layout + подписка на dataSource && delegate-
     
@@ -168,7 +168,9 @@ extension ModalSheetViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = presenter.groups[0].institutes[selectedInstituteIndex].courses[selectedCourse].groups[indexPath.row]
+        if selectedCourse > -1 {
+            cell.textLabel?.text = presenter.groups[0].institutes[selectedInstituteIndex].courses[selectedCourse].groups[indexPath.row]
+        }
         return cell
     }
     

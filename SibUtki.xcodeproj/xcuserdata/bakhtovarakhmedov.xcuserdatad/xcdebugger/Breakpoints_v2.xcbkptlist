@@ -538,8 +538,8 @@
             filePath = "SibUtkiTests/SibUtkiTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "testModalPresenter()"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,8 +570,8 @@
             filePath = "SibUtkiTests/SibUtkiTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "testModalPresenter()"
             landmarkType = "7">
          </BreakpointContent>
@@ -591,34 +591,6 @@
             landmarkName = "getGroups()"
             landmarkType = "7">
             <Locations>
-               <Location
-                  uuid = "F3E0DA51-EFD4-46C5-B726-CB18C1482CDA - abd1c7fcf2829cc3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;SibUtki.GroupListResponse&gt;, Swift.Error&gt;) -&gt; () in SibUtki.ModalPresenter.getGroups() -&gt; ()"
-                  moduleName = "SibUtki.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bakhtovarakhmedov/Documents/SibUtki/SibUtki/Moduls/ModalModule/ModalPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33">
-               </Location>
-               <Location
-                  uuid = "F3E0DA51-EFD4-46C5-B726-CB18C1482CDA - 5dc4f534844fa57b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;SibUtki.GroupListResponse&gt;, Swift.Error&gt;) -&gt; () in SibUtki.ModalPresenter.getGroups() -&gt; ()"
-                  moduleName = "SibUtki.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bakhtovarakhmedov/Documents/SibUtki/SibUtki/Moduls/ModalModule/ModalPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33">
-               </Location>
                <Location
                   uuid = "F3E0DA51-EFD4-46C5-B726-CB18C1482CDA - a48d398f9766968a"
                   shouldBeEnabled = "Yes"
@@ -666,20 +638,6 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "6F08208B-37AC-47D8-907E-8C002D4B0486 - 5dc4f534844fa5e6"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Result&lt;Swift.Optional&lt;SibUtki.GroupListResponse&gt;, Swift.Error&gt;) -&gt; () in SibUtki.ModalPresenter.getGroups() -&gt; ()"
-                  moduleName = "SibUtki.debug.dylib"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/bakhtovarakhmedov/Documents/SibUtki/SibUtki/Moduls/ModalModule/ModalPresenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36">
-               </Location>
-               <Location
                   uuid = "6F08208B-37AC-47D8-907E-8C002D4B0486 - 5dc4f534844fa5c7"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
@@ -723,6 +681,38 @@
             startingLineNumber = "28"
             endingLineNumber = "28"
             landmarkName = "testSettingDefaultGroup()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB9AD8BB-99FC-432D-AE60-F0C9A79145DF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SibUtki/Moduls/ModalModule/ModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C5CD4FA7-A428-45E1-AFF5-76F771707FC2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SibUtki/Moduls/ModalModule/ModalViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

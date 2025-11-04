@@ -11,7 +11,7 @@ private let reuseIdentifier = "Cell"
 
 //MARK: - DaysCollectionViewProtocol -
 protocol DaysCollectionViewProtocol {
-    func selected(_ date: Date)
+    func selected(_ date: Date, indexPath: IndexPath?)
 }
 
 class DaysCollectionView: UICollectionView {
@@ -132,7 +132,7 @@ extension DaysCollectionView: UICollectionViewDelegate {
         collectionView.reloadItems(at: indexPathsToReload)
         let date = daysForWeek()[indexPath.row]
 
-        ourDelegate.selected(date)
+        ourDelegate.selected(date, indexPath: selectedIndexPath)
     }
 
 }

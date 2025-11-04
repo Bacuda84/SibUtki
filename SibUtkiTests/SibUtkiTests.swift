@@ -48,6 +48,7 @@ final class SibUtkiTests: XCTestCase {
         let expectation = XCTestExpectation(description: "на fail")
         networkService.shouldFail = true
         mainView.presenter.updateSchedule([.now])
+        mainView.presenter.setDefaultGroup("Baz")
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { []
             XCTAssertTrue(self.mainView.presenter.schedule.isEmpty)
             expectation.fulfill()
@@ -65,6 +66,7 @@ final class SibUtkiTests: XCTestCase {
         }
         
         wait(for: [expectationForTrue])
+        UserDefaults.standard.removeObject(forKey: "group")  //сразу очищаем с дефолтс
     }
     
     func testModalPresenter() {
